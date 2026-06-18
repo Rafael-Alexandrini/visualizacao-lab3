@@ -1,28 +1,23 @@
 # Relatório
 
-> [!CAUTION]
->
-> - Você <ins>**não pode utilizar ferramentas de IA para escrever este relatório**</ins>.
+
 
 ## Identificação
 
-- **Nome**: <mark>Rafael Hillebrand Alexandrini</mark>
-- **Cartão UFRGS:** <mark>00587786</mark>
+- **Nome**: Rafael Hillebrand Alexandrini
+- **Cartão UFRGS:** 00587786
 
 ## Dados utilizados
 
 
-1. **Dataset 1**: <mark>[Microdados do Enade 2023](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enade)</mark>
-    * **Descrição curta**: <mark>Dados do Exame Nacional de Desempenho de Estudantes feito em 2023.</mark>
+1. **Dataset 1**: [Microdados do Enade 2023](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enade)
+    * **Descrição curta**: Dados do Exame Nacional de Desempenho de Estudantes feito em 2023.
 
 
 ## Código-fonte da visualização
 
-> [!IMPORTANT]
->
-> - Indique abaixo onde está, dentro deste repositório, o código-fonte usado para gerar a visualização.
 
-- **Arquivo principal**: <mark>`analise_QE_I26_bubble.ipynb`</mark>
+- **Arquivo principal**: `analise_QE_I26_bubble.ipynb`
 
 
 ## Imagem da visualização gerada
