@@ -6,22 +6,15 @@
 
 ## Identificação
 
-- **Nome**: <mark>`<preencher>`</mark>
-- **Cartão UFRGS:** <mark>`<preencher>`</mark>
+- **Nome**: <mark>Rafael Hillebrand Alexandrini</mark>
+- **Cartão UFRGS:** <mark>00587786</mark>
 
 ## Dados utilizados
 
-> [!IMPORTANT]
->
-> - Os dados utilizados devem ser informados como **links** para as fontes originais.
-> - Se houver mais de um conjunto de dados, liste todos separadamente.
-> - Para cada conjunto de dados, inclua também uma **descrição curta** explicando os dados.
 
-1. **Dataset 1**: <mark>`<link>`</mark>
-    * **Descrição curta**: <mark>`<preencher>`</mark>
-2. **Dataset 2**: <mark>`<link>`</mark>
-    * **Descrição curta**: <mark>`<preencher>`</mark>
-3. ...
+1. **Dataset 1**: <mark>[Microdados do Enade 2023](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enade)</mark>
+    * **Descrição curta**: <mark>Dados do Exame Nacional de Desempenho de Estudantes feito em 2023.</mark>
+
 
 ## Código-fonte da visualização
 
@@ -29,36 +22,22 @@
 >
 > - Indique abaixo onde está, dentro deste repositório, o código-fonte usado para gerar a visualização.
 
-- **Arquivo principal**: <mark>`<preencher>`</mark>
-- **Arquivos complementares (se houver)**: <mark>`<preencher>`</mark>
+- **Arquivo principal**: <mark>`analise_QE_I26_bubble.ipynb`</mark>
+
 
 ## Imagem da visualização gerada
 
-> [!IMPORTANT]
->
-> - Insira aqui uma imagem da visualização criada por você. Troque `imagem-da-visualizacao.png` pelo caminho correto do arquivo no repositório. 
-> - Se você criou alguma visualização interativa, então descreva aqui como acessá-la. Por exemplo, se for uma página HTML, coloque o link, ou se for uma visualização 3D, descreva como compilar e executar o código. 
-
-<mark>`<preencher abaixo>`</mark>
-
-![Visualização resultante](imagem-da-visualizacao.png)
+![Visualização resultante](visualization.png)
 
 ## Descrição da visualização
 
 ### Legenda (*caption*)
 
-> [!IMPORTANT]
->
-> - Escreva um texto curto explicando como interpretar a visualização. Descreva os elementos visuais, eixos, cores, símbolos ou interações relevantes.
-> - Este texto seria a legenda (*caption*) que acompanharia a figura em uma publicação, por exemplo.
 
-<mark>`<preencher>`</mark>
+O gráfico mostra a distribuição da nota média de cada curso (ex.: curso de Engenharia da Computação oferecida na UFRGS) no Enade 2023 em relação à razão mais comum para a escolha da instituição. Apenas cursos com mais de 100 alunos participantes do Enade são apresentados.
 
 ### Conclusão demonstrada pela visualização
 
-> [!IMPORTANT]
->
-> - Escreva uma conclusão curta sobre os dados com base na visualização.
-> - Explique qual insight, padrão ou tendência pode ser observado.
+Os dois principais motivos para a escolha de uma instituição (dentre as representadas, que possuem mais de 100 alunos participantes do Enade) é a Qualidade/Reputação e o Preço da Mensalidade. Embora não seja absoluto, podemos observar que instituições mais 'respeitadas' possuem uma nota média maior que as instituições procuradas pelo baixo preço.
 
-<mark>`<preencher>`</mark>
+Ainda seria preciso um trabalho estatístico para garantir a relevância dessa comparação, mas, apenas observando o gráfico, podemos afirmar que essas instituições merecem esse respeito.
